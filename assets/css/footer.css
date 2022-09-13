@@ -90,6 +90,11 @@
     background: #fff;
 }
 
+.footer-hr {
+    color: #fff;
+    height: 2px;
+}
+
 .footer .footer-content .link-boxes {
     width: 100%;
     display: flex;
