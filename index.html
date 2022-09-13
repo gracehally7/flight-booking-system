@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -98,3 +99,267 @@
 
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fontawesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Animate on Scroll CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>hallyairways</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav-items">
+          <h1 class="logo">GH<span>Lines</span></h1>
+          <a href="#" class="togglebutton">
+            <span class="bars"></span>
+            <span class="bars"></span>
+            <span class="bars"></span>
+          </a>
+          <div class="navbarlinks">
+            <li><a href="#">home</a></li>
+            <li><a href="#">bookings</a></li>
+            <li><a href="#">login</a></li>
+            <li><a href="#">contacts</a></li>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End Header -->
+
+    <!-- Main Section -->
+    <main>
+      <!---- Hero Section ---->
+      <section class="hero-section">
+        <div class="hero-left">
+          <h1 class="hero-title" data-aos="fade-right" data-aos-delay="100" data-aos-duration="3000">
+            its time to soar
+          </h1>
+          <h3 class="hero-text" data-aos="zoom-in-right" data-aos-duration="3000">
+            with hallysflights,you can easily book any ticket you need to travel
+            safely thanks to our detailed system of searching and booking
+            airline tickets.
+          </h3>
+          <button class="btn btn-explore" data-aos="zoom-in-up" data-aos-duration="3000">Explore</button>
+        </div>
+
+        <div
+          class="hero-right"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
+          <form action="" class="ticket-form">
+            <div class="form-tab"></div>
+
+            <div class="form-details">
+              <div class="trip-type">
+                <div>
+                  <input type="radio" name="trip" id="round-trip" />
+                  <label for="round-trip">Round-trip</label>
+                </div>
+                <div>
+                  <input type="radio" name="trip" id="one-way" />
+                  <label for="one-way">One Way</label>
+                </div>
+                <div>
+                  <input type="radio" name="trip" id="multi-city" />
+                  <label for="multi-city">Multi City</label>
+                </div>
+              </div>
+
+              <div class="fields">
+                <div class="input-field">
+                  <label>From:</label>
+                  <select name="" id="">
+                    <option value="">Lagos</option>
+                    <option value="">Abuja</option>
+                    <option value="">Kaduna</option>
+                    <option value="">Kano</option>
+                    <option value="">Port Harcout</option>
+                    <option value="">Sokoto</option>
+                  </select>
+                  <div>
+                    <input type="checkbox" name="airport" id="aiport-from" />
+                    <label for="aiport-from">&nbsp;Nearby Airports</label>
+                  </div>
+                </div>
+
+                <div class="input-field">
+                  <label>To:</label>
+                  <select name="" id="">
+                    <option value="">Abuja</option>
+                    <option value="">Kano</option>
+                    <option value="">Haduna</option>
+                    <option value="">Lagos</option>
+                    <option value="">Port Harcourt</option>
+                  </select>
+                  <div>
+                    <input type="checkbox" name="airport" id="aiport-to" />
+                    <label for="aiport-to">&nbsp;Nearby Airports</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="fields">
+                <div class="input-field">
+                  <label>Departure</label>
+                  <input type="date" />
+                </div>
+
+                <div class="input-field">
+                  <label>Return</label>
+                  <input type="date" />
+                </div>
+              </div>
+
+              <div class="fields">
+                <div class="input-field-3">
+                  <label>Carbin Class</label>
+                  <select name="" id="">
+                    <option value="Economy">Economy</option>
+                    <option value="FirstClass">First Class</option>
+                  </select>
+                </div>
+                <div class="input-field-3">
+                  <label>Adult(16+)</label>
+                  <input type="number" value="1" min="1" required />
+                </div>
+                <div class="input-field-3">
+                  <label>Carbin Class</label>
+                  <select name="" id="">
+                    <option value="Ecomony">Economy</option>
+                    <option value="FirstClass">First Class</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="fields">
+                <div class="input-field">
+                  <div>
+                    <input type="checkbox" id="direct-flight" />
+                    <label for="direct-flight">&nbsp;Direct flights only</label>
+                  </div>
+                </div>
+
+                <div class="input-field">
+                  <button class="search-btn">
+                    Search Flights
+                    <span class="material-icons search-icon"> search </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- End Hero Section -->
+
+      <!-- Section 1 - Brief Info -->
+      <section class="section-1">
+        <div class="section-info">
+          <div class="info-item" data-aos="zoom-in-right" data-aos-duration="3000">
+            <div class="info-icon">
+              <i class="fas fa-search"></i>
+            </div>
+            <div class="info-body">
+              <div class="info-title">
+                <h3>The World's Travel Search Engine</h3>
+              </div>
+              <div class="info-text">
+                <p>
+                  You can use our search engine to find any flight you want and
+                  select a desired destination and price
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-item" data-aos="zoom-in-down" data-aos-duration="3000">
+            <div class="info-icon">
+              <i class="fas fa-plane-up"></i>
+            </div>
+            <div class="info-body">
+              <div class="info-title">
+                <h3>Cheap and Beneficial Air Tickets</h3>
+              </div>
+              <div class="info-text">
+                <p>
+                  We provide affordable tickets to the flights of almost all
+                  existing airlines so you don’t need to look for them.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-item" data-aos="zoom-in-up" data-aos-duration="3000">
+            <div class="info-icon">
+              <i class="fas fa-headset"></i>
+            </div>
+            <div class="info-body">
+              <div class="info-title">
+                <h3>Our Support Lines are Open 24/7</h3>
+              </div>
+              <div class="info-text">
+                <p>
+                  Our 24/7 support operators are always ready to help you select
+                  a proper flight according to your needs.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-item" data-aos="zoom-in-left" data-aos-duration="3000">
+            <div class="info-icon">
+              <i class="fas fa-credit-card"></i>
+            </div>
+            <div class="info-body">
+              <div class="info-title">
+                <h3>Convenient Payment Method For You</h3>
+              </div>
+              <div class="info-text">
+                <p>
+                  We provide a variety of payment methods including cheque,
+                  cash, and credit cards.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Section 1 -->
+
+      <!-- Section 2 - Slider Part -->
+
+      <!-- End Section 2 -->
+    </main>
+    <!-- Main Section -->
+
+    <!-- Footer Area -->
+
+    <!-- End Footer  -->
+
+    <!-- Animate on Scroll JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
+>>>>>>> anagho

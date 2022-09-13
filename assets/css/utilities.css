@@ -1,0 +1,15 @@
+/* --- Images --- */
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* --- Links --- */
+a {
+    text-decoration: none;
+}
+
+/* --- Lists --- */
+ul {
+    list-style: none;
+}
