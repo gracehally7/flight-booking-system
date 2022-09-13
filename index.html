@@ -5,32 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Google Material UI Icons -->
+    <!-- Fontawesome Icons -->
     <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
-      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
 
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <title>hallyairways</title>
   </head>
+
   <body>
     <header class="header">
-      <nav>
+      <nav class="nav container">
         <div class="nav-items">
-          <h1 class="logo">
-            <span class="material-icons-round"> airlines </span>GH<span
-              >Lines</span
-            >
-          </h1>
+          <h1 class="logo">GH<span>Lines</span></h1>
           <a href="#" class="togglebutton">
             <span class="bars"></span>
             <span class="bars"></span>
@@ -44,8 +36,13 @@
           </div>
         </div>
       </nav>
+    </header>
+    <!-- End Header -->
 
-      <div class="header_hero-section container">
+    <!-- Main Section -->
+    <main>
+      <!---- Hero Section ---->
+      <section class="hero-section">
         <div class="hero-left">
           <h1 class="hero-title">its time to soar</h1>
           <h3 class="hero-text">
@@ -136,8 +133,8 @@
                 <div class="input-field-3">
                   <label>Carbin Class</label>
                   <select name="" id="">
-                    <option value="">Economy</option>
-                    <option value="">First Class</option>
+                    <option value="Ecomony">Economy</option>
+                    <option value="FirstClass">First Class</option>
                   </select>
                 </div>
               </div>
@@ -160,17 +157,15 @@
             </div>
           </form>
         </div>
-      </div>
-    </header>
-    <!-- End Header -->
+      </section>
+      <!-- End Hero Section -->
 
-    <!-- Main Section -->
-    <main>
+      <!-- Section 1 - Brief Info -->
       <section class="section-1">
         <div class="section-info">
           <div class="info-item">
             <div class="info-icon">
-              <span class="material-icons search-icon"> search </span>
+              <i class="fas fa-search"></i>
             </div>
             <div class="info-body">
               <div class="info-title">
@@ -187,7 +182,7 @@
 
           <div class="info-item">
             <div class="info-icon">
-              <span class="material-icons"> flight </span>
+              <i class="fas fa-plane-up"></i>
             </div>
             <div class="info-body">
               <div class="info-title">
@@ -195,7 +190,8 @@
               </div>
               <div class="info-text">
                 <p>
-                  We provide affordable tickets to the flights of almost all existing airlines so you don’t need to look for them.
+                  We provide affordable tickets to the flights of almost all
+                  existing airlines so you don’t need to look for them.
                 </p>
               </div>
             </div>
@@ -203,7 +199,7 @@
 
           <div class="info-item">
             <div class="info-icon">
-              <span class="material-icons"> support_agent </span>
+              <i class="fas fa-headset"></i>
             </div>
             <div class="info-body">
               <div class="info-title">
@@ -211,7 +207,8 @@
               </div>
               <div class="info-text">
                 <p>
-                  Our 24/7 support operators are always ready to help you select a proper flight according to your needs.
+                  Our 24/7 support operators are always ready to help you select
+                  a proper flight according to your needs.
                 </p>
               </div>
             </div>
@@ -219,7 +216,7 @@
 
           <div class="info-item">
             <div class="info-icon">
-              <span class="material-icons"> payment </span>
+              <i class="fas fa-credit-card"></i>
             </div>
             <div class="info-body">
               <div class="info-title">
@@ -227,15 +224,25 @@
               </div>
               <div class="info-text">
                 <p>
-                  We provide a variety of payment methods including cheque, cash, and credit cards.
+                  We provide a variety of payment methods including cheque,
+                  cash, and credit cards.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- End Section 1 -->
+
+      <!-- Section 2 - Slider Part -->
+
+      <!-- End Section 2 -->
     </main>
     <!-- Main Section -->
+
+    <!-- Footer Area -->
+
+    <!-- End Footer  -->
 
     <script src="./assets/js/app.js"></script>
   </body>
