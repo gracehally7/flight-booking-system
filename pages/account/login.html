@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fontawesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Login CSS File -->
+    <link rel="stylesheet" href="./login.css" />
+    <title>Login | hallyairways</title>
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav-items">
+          <h1 class="logo">GH<span>Lines</span></h1>
+          <a href="#" class="togglebutton">
+            <span class="bars"></span>
+            <span class="bars"></span>
+            <span class="bars"></span>
+          </a>
+          <div class="navbarlinks">
+            <li><a href="../../">home</a></li>
+            <li><a href="#">bookings</a></li>
+            <li><a href="#">login</a></li>
+            <li><a href="#">contacts</a></li>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End Header -->
+
+    <main>
+      <section class="login-wrapper">
+        <div class="left-wrapper">
+          <img src="../../assets/img/img-3.jpg" alt="login image" />
+        </div>
+        <div class="right-wrapper">
+          <form action="" class="form" id="login-form">
+            <h4 class="form-title">Welcome Back!</h4>
+            <h6 class="form-text">Sign in to your account to continue</h6>
+            <div class="form-group">
+              <label class="form-label" for="email">Email Address:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+                placeholder="Enter Email Address"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <div class="password-wrapper">
+                <label>Password:</label>
+                <h6>Forgot password?</h6>
+              </div>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                class="form-control"
+                placeholder="Enter your password"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <button type="submit" class="login-button" id="login-btn">Sign In</button>
+            </div>
+            <h6 class="form-text">
+              Not Registered?
+              <span>
+                <a href="" class="bold-title">Sign Up</a>
+              </span>
+            </h6>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="../../assets/js/app.js"></script>
+    <!-- Login Script -->
+    <script src="./login.js"></script>
+  </body>
+</html>

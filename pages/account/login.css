@@ -1,0 +1,106 @@
+/* --- Utilities --- */
+@import url('../../assets/css/utilities.css');
+
+/* --- Header --- */
+@import url('../../assets/css/header.css');
+
+.header {
+    position: relative;
+    background-color: #fff;
+    top: 0;
+}
+
+.login-wrapper {
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    justify-content: space-between;
+}
+
+.left-wrapper {
+    flex: 1;
+    height: 100%;
+}
+
+.left-wrapper img {
+    height: 100%;
+}
+
+.right-wrapper {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    background-color: #fbf3f2;
+    padding: 3.75rem 6.25rem;
+}
+
+.form {
+    width: 100%;
+}
+
+.form-title {
+    margin: 1rem 0;
+}
+
+.form-text {
+    font-size: 14px;
+    margin: .5rem 0;
+    font-weight: 300;
+}
+
+.form-label {
+    display: block;
+}
+
+.form-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.password-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-control {
+    width: 100%;
+    padding: .6rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.bold-title {
+    color: #d85604;
+    font-weight: 600;
+}
+
+.login-button {
+    background: #d85604;
+    width: 100%;
+    border: 1px solid #d85604;
+    padding: 8px 15px;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 786px) {
+    .login-wrapper {
+        height: auto;
+    }
+    
+    .left-wrapper {
+        flex: 0;
+    }
+
+    .right-wrapper {
+        flex: 1;
+        padding: 3.75rem 1.25rem;
+    }
+}

@@ -1,107 +1,8 @@
-/* Google Fonts - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
-
 /* --- Utilities --- */
 @import url('./utilities.css');
 
-/*--- CSS RESET ---*/
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-body {
-    background-color: rgb(187, 186, 185);
-}
-
-/* ------- Global Styles ----- */
-.container {
-    max-width: 1300px;
-    margin: 0 auto;
-    width: 100%;
-}
-
-/* ------- End Global Styles ----- */
-
-
-/* ----- Start Header Styles ---- */
-.header {
-    position: absolute;
-    width: 100%;
-    top: 15px;
-    left: 0;
-    z-index: 999;
-}
-
-.nav-items {
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    text-align: center;
-}
-
-/* .h1 {
-    color: red;
-    font-size: 30px;
-} */
-
-/* span {
-    color: greenyellow;
-    font-weight: lighter;
-} */
-
-.navbarlinks {
-    display: flex;
-    list-style: none;
-    margin-right: 10px;
-
-}
-
-.navbarlinks li a {
-    text-decoration: none;
-    padding: .5rem;
-    text-transform: uppercase;
-    margin-right: 10px;
-    color: black;
-    cursor: pointer;
-
-}
-
-.navbarlinks li:hover {
-    background-color: rgb(141, 204, 141);
-    padding: 5px;
-    color: white;
-
-}
-
-/* .active{
-    background-color:rgb(179, 175, 175);
-    padding: 5px;
-} */
-.togglebutton {
-    /* border: 2px solid grey; */
-    display: none;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    flex-direction: column;
-    width: 30px;
-    height: 21px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.togglebutton .bars {
-    height: 3px;
-    width: 100%;
-    border-radius: 10px;
-    background-color: green;
-}
-
+/* ---- Import Header Styles ----- */
+@import url('./header.css');
 /* ------- End Header Styles ----- */
 
 /* ----- Start Main Area Styles ----- */
@@ -153,14 +54,6 @@ body {
     color: white;
     line-height: 1.9;
     margin-bottom: 1rem;
-}
-
-.btn {
-    padding: .5rem;
-    font-size: 1.1rem;
-    border: none;
-    outline: none;
-    cursor: pointer;
 }
 
 .btn-explore {
@@ -333,11 +226,6 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
 
-    .header {
-        position: relative;
-        top: 0;
-    }
-
     /* ----- Hero Section ---- */
     .hero-section {
         flex-direction: column;
@@ -367,40 +255,6 @@ body {
         row-gap: 2rem;
     }
 
-
-}
-
-@media(max-width:500px) {
-    .togglebutton {
-        display: flex;
-    }
-
-    .navbarlinks {
-        display: none;
-        width: 100%;
-    }
-
-    .nav-items {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .navbarlinks {
-        width: 100%;
-        flex-direction: column;
-
-    }
-
-    .navbarlinks li {
-        text-align: center;
-        padding: 1rem;
-    }
-
-    .navbarlinks.active {
-        display: flex;
-    }
-
-
 }
 
 @media (max-width: 368px) {
@@ -412,9 +266,5 @@ body {
     .info-item .info-icon {
         width: 100%;
         display: flex;
-    }
-
-    .info-item .material-icons {
-        font-size: 40px;
     }
 }

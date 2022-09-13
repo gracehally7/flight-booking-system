@@ -1,0 +1,61 @@
+/* --- Utilities --- */
+@import url('../../assets/css/utilities.css');
+
+/* --- Header --- */
+@import url('../../assets/css/header.css');
+
+.header {
+    position: relative;
+    background-color: #fff;
+    top: 0;
+}
+
+.booking-container {
+    background-color: #fbf3f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    row-gap: 4rem;
+}
+
+.booking {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.6);
+}
+
+.booking .icon {
+    font-size: 100px;
+}
+
+.booking .icon.success {
+    color: green;
+}
+.booking .icon.failed {
+    color: red;
+}
+
+.booking .mybtn {
+    color: #fff;
+    background-color: #d85604;
+    font-weight: 300;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+}
+
+.booking .mybtn:hover {
+    color: #d85604;
+    background-color: transparent;
+    border: 1px solid #d85604;
+    font-weight: 600;
+}
