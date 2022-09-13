@@ -9,6 +9,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* --- Images --- */
 img {
     width: 100%;

@@ -5,6 +5,9 @@
 @import url('./header.css');
 /* ------- End Header Styles ----- */
 
+/* Footer Styles */
+@import url('./footer.css');
+
 /* ----- Start Main Area Styles ----- */
 .hero-section {
     background-image: url('../img/img-1.jpeg');
@@ -183,6 +186,7 @@
 /*  Section  1*/
 .section-1 {
     padding: 3rem 1rem;
+    background-color: #fff;
 }
 
 .section-info {
