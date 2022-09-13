@@ -14,6 +14,9 @@
       referrerpolicy="no-referrer"
     />
 
+    <!-- Animate on Scroll CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <title>hallyairways</title>
   </head>
@@ -44,16 +47,23 @@
       <!---- Hero Section ---->
       <section class="hero-section">
         <div class="hero-left">
-          <h1 class="hero-title">its time to soar</h1>
-          <h3 class="hero-text">
+          <h1 class="hero-title" data-aos="fade-right" data-aos-delay="100" data-aos-duration="3000">
+            its time to soar
+          </h1>
+          <h3 class="hero-text" data-aos="zoom-in-right" data-aos-duration="3000">
             with hallysflights,you can easily book any ticket you need to travel
             safely thanks to our detailed system of searching and booking
             airline tickets.
           </h3>
-          <button class="btn btn-explore">Explore</button>
+          <button class="btn btn-explore" data-aos="zoom-in-up" data-aos-duration="3000">Explore</button>
         </div>
 
-        <div class="hero-right">
+        <div
+          class="hero-right"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
           <form action="" class="ticket-form">
             <div class="form-tab"></div>
 
@@ -163,7 +173,7 @@
       <!-- Section 1 - Brief Info -->
       <section class="section-1">
         <div class="section-info">
-          <div class="info-item">
+          <div class="info-item" data-aos="zoom-in-right" data-aos-duration="3000">
             <div class="info-icon">
               <i class="fas fa-search"></i>
             </div>
@@ -180,7 +190,7 @@
             </div>
           </div>
 
-          <div class="info-item">
+          <div class="info-item" data-aos="zoom-in-down" data-aos-duration="3000">
             <div class="info-icon">
               <i class="fas fa-plane-up"></i>
             </div>
@@ -197,7 +207,7 @@
             </div>
           </div>
 
-          <div class="info-item">
+          <div class="info-item" data-aos="zoom-in-up" data-aos-duration="3000">
             <div class="info-icon">
               <i class="fas fa-headset"></i>
             </div>
@@ -214,7 +224,7 @@
             </div>
           </div>
 
-          <div class="info-item">
+          <div class="info-item" data-aos="zoom-in-left" data-aos-duration="3000">
             <div class="info-icon">
               <i class="fas fa-credit-card"></i>
             </div>
@@ -243,6 +253,9 @@
     <!-- Footer Area -->
 
     <!-- End Footer  -->
+
+    <!-- Animate on Scroll JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script src="./assets/js/app.js"></script>
   </body>

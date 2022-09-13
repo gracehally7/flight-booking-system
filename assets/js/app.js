@@ -4,3 +4,6 @@ const navBar = document.querySelector(".navbarlinks");
 toggleButton.addEventListener("click", () => {
   navBar.classList.toggle("active");
 });
+
+// AOS Instance
+AOS.init();
